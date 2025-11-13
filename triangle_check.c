@@ -54,8 +54,7 @@ void triangle_check(float A[2], float B[2], float C[2], float D[2]) {
         }
     }
 }
-// until now I just did the check for the AB side. Is there a way to optimize the code, maybe with a 
-// for cycle instead of just repeating the if/else statement for the BC and AC sides as well?
+// is there a better way of doing this process? maybe a for loop to avoid all this horrendous if/else statement
 
 
 // main function to print the results
